@@ -5,6 +5,15 @@
     box-sizing: border-box;
     font-family: "Raleway", serif;
 }
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
 nav{
     width: 100%;
     height: 30%;
@@ -19,7 +28,7 @@ a:hover{
     width: 100%;
     height: 900px;
 }
-figure{
+.figure1{
     display: inline-block;
     height: 600px;
     height: 900px;
@@ -79,13 +88,13 @@ figure{
 /*SESSÃO HABILIDADES*/
 
 .section2{
-    background-color: #7382AD;
+    background-color: #466fe0e7;
     width: 100%;
     height: 1000px;
 }
 .habilidades{
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-top: 30px;
     font-weight: 900;
     text-shadow: 2px 2px 3px black;
@@ -103,7 +112,68 @@ justify-content: center;
     border:black 2px solid ;
 }
 
-.icone{
-    width: 30px;
-    height: 30px;
+.icon{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }
+.text_icon{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*SESSÃO PROJETOS*/
+
+.section3{
+    width: 100%;
+    height: 900px;
+    background-color: #1d3aca;
+}
+
+/*SESSÃO CONTATOS*/
+.section4{
+    width: 100%;
+    height: 400px;
+    background-color: #0010f3;
+    display: flex;
+}
+.perfil_contato{
+    display:flex;
+    width: 250px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.div_descriçao{
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 24px;
+    color: white;
+}
+.section5{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    background-color:#0010f3;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.link_contato{
+    color: black;
+    background-color: white;
+    border: 1px black solid;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 30px 0px 30px;
+    border-radius: 5px;
+    margin-right:80px;
+
+    }
